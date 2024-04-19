@@ -35,6 +35,8 @@ API_URL: Magic Runes API for etching & deploying Runes
 
 WALLET_SECRET_PHRASE: Secret phrase for your wallet 
 
+
+
 **USAGE**
 Just execute by this command: python app.py
 

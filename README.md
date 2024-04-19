@@ -32,6 +32,7 @@ Follow these steps to get your development environment ready:
 Open the config.py file and set the following configurations:
 
 API_URL: Magic Runes API for etching & deploying Runes
+
 WALLET_SECRET_PHRASE: Secret phrase for your wallet 
 
 **USAGE**
@@ -40,7 +41,11 @@ Just execute by this command: python app.py
 You will be prompted to enter the following token properties when you run the script:
 
 etch_rune_ticker: Unique identifier for the token (e.g., "MAGICRUNES").
+
 decimals: Number of decimal places for token precision (0 to 38).
+
 symbol: A single-character symbol for the token (e.g., "M").
+
 max_supply: The maximum number of tokens that can be minted.
+
 limit_per_mint: The number of tokens allowed per mint event.
